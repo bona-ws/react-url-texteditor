@@ -3,11 +3,6 @@
 	"author": "bona-ws",
 	"version": "1.0.0",
 	"private": false,
-	"babnpel": {
-		"presets": [
-			"@babel/preset-react"
-		]
-	},
 	"description": "",
 	"main": "script.js",
 	"scripts": {
@@ -20,8 +15,5 @@
 		"react-scripts": "3.4.3"
 	},
 	"license": "ISC",
-	"devDependencies": {
-		"@babel/cli": "^7.12.10",
-		"@babel/preset-react": "^7.12.10"
-	}
+	"devDependencies": {}
 }
