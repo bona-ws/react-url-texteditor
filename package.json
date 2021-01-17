@@ -12,7 +12,7 @@
 	"main": "script.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./component -d dist --copy-files"
+		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./component -d . --copy-files"
 	},
 	"dependencies": {},
 	"license": "ISC",
