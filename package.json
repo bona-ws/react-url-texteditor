@@ -3,8 +3,13 @@
 	"author": "bona-ws",
 	"version": "1.0.4",
 	"private": false,
+	"babel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	},
 	"description": "",
-	"main": "index.js",
+	"main": "script.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
