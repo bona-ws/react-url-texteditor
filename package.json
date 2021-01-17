@@ -1,0 +1,27 @@
+{
+	"name": "react-url-texteditor",
+	"author": "bona-ws",
+	"version": "1.0.0",
+	"private": false,
+	"babnpel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	},
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./components -d dist --copy-files"
+	},
+	"dependencies": {
+		"react": "17.0.0",
+		"react-dom": "17.0.0",
+		"react-scripts": "3.4.3"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.12.10",
+		"@babel/preset-react": "^7.12.10"
+	}
+}
