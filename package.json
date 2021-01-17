@@ -12,7 +12,8 @@
 	"main": "script.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./component -d . --copy-files"
+		"start": "react-scripts start",
+		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/component -d . --copy-files"
 	},
 	"dependencies": {},
 	"license": "ISC",
@@ -22,5 +23,17 @@
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-scripts": "^4.0.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }

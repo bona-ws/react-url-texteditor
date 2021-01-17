@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./style.css";
 
 const URLTextEditor = ({ onChangeText, onChangeHtml, inlineStyle }) => {
 	const [text, setText] = React.useState(" ");
