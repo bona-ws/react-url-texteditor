@@ -3,6 +3,9 @@
 	"author": "bona-ws",
 	"version": "1.0.9",
 	"private": false,
+	"repository": {
+		"git": "github.com/bona-ws/react-url-texteditor"
+	},
 	"babel": {
 		"presets": [
 			"@babel/preset-react"
