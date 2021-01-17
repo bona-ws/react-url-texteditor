@@ -1,7 +1,7 @@
 {
 	"name": "react-url-texteditor",
 	"author": "bona-ws",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"private": false,
 	"repository": "git://github.com/bona-ws/react-url-texteditor",
 	"babel": {
