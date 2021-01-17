@@ -1,18 +1,12 @@
 {
 	"name": "react-url-texteditor",
 	"author": "bona-ws",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"private": false,
-	"babel": {
-		"presets": [
-			"@babel/preset-react"
-		]
-	},
 	"description": "",
-	"main": "script.js",
+	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./component -d . --copy-files"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {},
 	"license": "ISC",
