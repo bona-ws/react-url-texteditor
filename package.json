@@ -12,6 +12,7 @@
 	"main": "script.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "react-scripts build",
 		"start": "react-scripts start",
 		"publish:npm": "babel ./src/component -d . --copy-files"
 	},
