@@ -29,6 +29,6 @@ import URLTextEditor from "react-url-texteditor";
 
 ### Demo
 
-[]()
+<a target="_blank" href="http://nostalgic-euler-40af46.netlify.app/">Go to demo</a>
 
 ###### currently support for http only
